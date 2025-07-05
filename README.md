@@ -1,16 +1,16 @@
 # 🔐 Keystrokes-Capture-Tool (Educational Project)
 
-This project is a **basic keylogger built with Python** using the `pynput` library.  
+This project is a **basic keylogger built with Python**, using the `pynput` library.  
 It captures user keystrokes and sends them to a server using sockets.
 
-🚨 **This tool is created solely for educational and ethical hacking practice.**
+🚨 **This tool is created solely for educational and ethical hacking purposes. Do not use it maliciously.**
 
 ---
 
 ## ⚙️ Features
 
 - Logs all key presses (including special keys like Enter, Shift, etc.)
-- Sends keystrokes over TCP to a server
+- Sends keystrokes over TCP to a remote server
 - Saves logs in a text file
 - Clean and minimal code — great for beginners
 
@@ -18,8 +18,8 @@ It captures user keystrokes and sends them to a server using sockets.
 
 ## 🚀 How It Works
 
-1. `client.py`: Captures keystrokes and sends them to a specified server
-2. `server.py`: Listens for incoming connections and stores logs in `logs.txt`
+1. `client.py`: Captures keystrokes and sends them to the specified server
+2. `server.py`: Listens for incoming connections and writes logs to `logs.txt`
 
 ---
 
@@ -27,6 +27,6 @@ It captures user keystrokes and sends them to a server using sockets.
 
 - Python 3.x
 - `pynput` library  
-  Install with:  
+  Install it using:
   ```bash
   pip install pynput
